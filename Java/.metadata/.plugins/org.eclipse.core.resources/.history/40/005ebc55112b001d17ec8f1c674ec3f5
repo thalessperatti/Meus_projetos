@@ -1,0 +1,28 @@
+package br.com.fiap.tds;
+
+import java.util.Scanner;
+
+public class LeituraDeDados {
+
+	public static void main(String[] args) {
+
+		int idade = 0;
+
+		Scanner sc = new Scanner (System.in);
+		idade = sc.nextInt("Por favor, informe sua idade: ");
+
+		if (idade < 0) {
+			System.out.println("Idade inválida");
+		} else if (idade >= 18 && idade < 70) {
+			System.out.println("Maior idade");
+		} else if (idade >= 70) {
+			if (idade >= 100) {
+				System.out.println("Centenário");
+			} else {
+				System.out.println("Terceira idede");
+			}
+		} else {
+				System.out.println("Menor idade");
+			}
+		}
+	}

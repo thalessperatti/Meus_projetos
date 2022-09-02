@@ -1,0 +1,26 @@
+package br.com.fiap.tds;
+
+public class OperadoresIncrementoDecremento {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 10;
+		
+		x = x + 1; //ou
+		x++;
+		System.out.println("x = " + x);
+		
+		x--;
+		System.out.println("x = " + x);
+		
+		
+		int y = 10;
+		
+		++y;
+		System.out.println("y = " + y);
+		
+		--y;
+		System.out.println("y = " + y);
+	}
+
+}

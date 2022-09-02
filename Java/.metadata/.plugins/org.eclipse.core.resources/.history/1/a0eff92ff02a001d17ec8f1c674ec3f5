@@ -1,0 +1,17 @@
+package br.com.fiap.tds;
+
+public class ConversaoTiposPrimitivos {
+
+	public static void main(String[] args) { 
+		//exemplo de conversão de variáveis:
+		int x = 10; //declaração de uma variável do tipo int
+		double d = x; //variável double recebe o tipo int
+		long l = x; //variável long recebe o tipo int
+		float f = x; //variável float recebe o tipo int
+		short s = 20; //declaração de uma variável do tipo short
+		x = s; //variável int recebe o tipo short
+		
+		System.out.println(x);
+	}
+
+}
