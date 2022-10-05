@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1B5C4DD-86C8-33C3-0860-80D8B5366AE3" name="T_CAMERAS">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:03:50 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8F4CCDB0-BEFE-6CA5-C586-47E033713AED">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:04:28 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome" id="519ED7AF-B1D2-9A53-78E4-EFFD7C9DB6D5">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:04:44 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="803D1172-EE0F-4C92-635D-ECDF0F17FD17">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:05:12 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="9A00690B-D4D0-5836-8A83-FF64250EEE12">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:05:22 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_dispositivo" id="223BB2F0-AF59-D0A8-9595-C34B2A4EE8BA">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:05:37 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3DFA272-9C12-67EB-F245-35E026D270FF" name="T_CAMERAS_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:04:28 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4CCDB0-BEFE-6CA5-C586-47E033713AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

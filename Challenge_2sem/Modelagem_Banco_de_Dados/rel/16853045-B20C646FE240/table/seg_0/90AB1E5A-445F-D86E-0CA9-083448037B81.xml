@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90AB1E5A-445F-D86E-0CA9-083448037B81" name="T_ALARME_CACHORRO">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:07:28 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E80976F6-E4E2-0E86-D1C2-5D356A84A95D">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:07:57 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome_animal" id="B3C0F907-54BA-19C5-F37D-23AF32F79C3A">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:08:12 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_dispositivo" id="D833F2AA-BA34-576B-CAF9-71333FDBB72C">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:08:28 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="45E676B9-B88D-80A1-8C45-112548F49DDC">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:08:40 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_temperatura_ar" id="77B6C847-1E5F-7EF7-7444-7F490E8F06DC">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:09:26 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCBC09CA-95F3-0156-0ECA-F9F76CA40FB7" name="T_ALARME_CACHORRO_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-10-05 00:07:57 UTC</createdTime>
+<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80976F6-E4E2-0E86-D1C2-5D356A84A95D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
