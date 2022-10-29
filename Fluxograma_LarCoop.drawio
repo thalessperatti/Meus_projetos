@@ -1,0 +1,99 @@
+<mxfile host="65bd71144e">
+    <diagram id="4LEkiE6B31CBiqqznxXf" name="Página-1">
+        <mxGraphModel dx="820" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Automóvel / Residencial" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+                    <mxGeometry x="9" y="10" width="810" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Associado" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry x="20" width="790" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group" vertex="1" connectable="0" parent="3">
+                    <mxGeometry x="75.75" y="25" width="184" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Interesse em seguro" style="ellipse;fillColor=#60a917;strokeColor=#2D7600;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBackgroundColor=default;fontColor=#ffffff;gradientColor=none;" parent="27" vertex="1">
+                    <mxGeometry y="5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#ffffff&quot;&gt;Aceitou o valor?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;labelPosition=left;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="27">
+                    <mxGeometry x="145" width="39" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="PA" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="120" width="790" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Obter dados para cotação do seguro" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;gradientColor=none;fillColor=#6666FF;strokeColor=#0000FF;" parent="4" vertex="1">
+                    <mxGeometry x="41.5" y="20" width="98.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Apresenta a cotação para o associado" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;gradientColor=none;fillColor=#6666FF;strokeColor=#0000FF;" vertex="1" parent="4">
+                    <mxGeometry x="191" y="20" width="98.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Corretora" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="240" width="790" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Sim" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5" source="11" target="14">
+                    <mxGeometry x="-0.7337" y="10" relative="1" as="geometry">
+                        <mxPoint x="191" y="60" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#ffffff&quot;&gt;Dados completos?&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="5" vertex="1">
+                    <mxGeometry x="71.25" y="40" width="39" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Cotar seguro no Quiver" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;gradientColor=none;fillColor=#6666FF;strokeColor=#0000FF;" vertex="1" parent="5">
+                    <mxGeometry x="191" y="30" width="98.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Solicitar condição especial para a seguradora" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;gradientColor=none;fillColor=#6666FF;strokeColor=#0000FF;" vertex="1" parent="5">
+                    <mxGeometry x="345.75" y="30" width="98.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Seguradora" style="swimlane;startSize=20;horizontal=0;" parent="5" vertex="1">
+                    <mxGeometry y="160" width="790" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="2" source="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="111" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2" source="11" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="381" y="270" as="sourcePoint"/>
+                        <mxPoint x="431" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="62" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.2997" y="1" relative="1" as="geometry">
+                        <mxPoint x="20" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="2" source="14" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2" source="18" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="22" target="24">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="381" y="240" as="sourcePoint"/>
+                        <mxPoint x="431" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="415" y="45"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="-0.7099" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-41" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
