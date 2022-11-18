@@ -36,14 +36,11 @@ def post_category():
 
 @app.route('/categories', methods=['GET','POST'])
 def get_category():
-    print(request.method)
     if request.method == 'POST':
         categoria = request.form['categoria']
         requisicao = requests.get(api + 'random?category=' + categoria)
-        print(requisicao)
         piada = json.loads(requisicao.content)
         status=requisicao.status_code
-        print(piada)
         return render_template('joke_by_category.html', titulo='Joke By Category',status_code=status, response=piada['value'])
     else:
         return render_template('categories.html', titulo='Joke By Category')
