@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem_Banco_de_Dados" id="A91B305E-0555-C87E-3C3C-9BDFB9EEE716" version="3.5">
-<createdBy>User</createdBy>
-<createdTime>2022-10-04 23:52:50 UTC</createdTime>
-<ownerDesignName>Modelagem_Banco_de_Dados</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>A91B305E-0555-C87E-3C3C-9BDFB9EEE716</designId>
-</OSDM_Design>
