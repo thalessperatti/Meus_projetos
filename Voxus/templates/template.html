@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="PT=BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chuck Norris Jokes</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+    </head>
+
+    <body>
+        <div class="container text center">
+            <div class="page-header">
+                <h2>{{ titulo }}</h2>
+            </div>
+        </div>
+
+        {% block conteudo %} {% endblock %}
+
+    </body>
+</html>

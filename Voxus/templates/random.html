@@ -1,0 +1,19 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <section>
+        <div class="container text center">
+            <div class="col-sm-4">
+                <label class="col-sm-2 col-form-label">Status Code:</label>
+                <textarea readonly class="col-sm-2 col-form-control" name="status_code" rows="1">{{status_code}}</textarea>
+            </div>
+        
+            <div class="col-sm-6">
+                <label class="col-sm-4 col-form-label">Piada</label>
+                <textarea readonly class="form-control" name="response" rows="5">{{response}}</textarea>
+            </div>
+        </div>
+    </section>
+
+
+
+{% endblock %}
